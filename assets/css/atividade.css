@@ -1,0 +1,94 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Fundo */
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    color:white;
+}
+
+/* Título */
+h1{
+    margin-bottom:25px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+/* Container principal */
+div{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+    width:420px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+    margin-bottom:15px;
+}
+
+/* Label */
+label{
+    font-size:14px;
+    color:#cbd5e1;
+    display:block;
+    margin-bottom:6px;
+}
+
+/* Input */
+input{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+/* Container dos botões */
+div:nth-of-type(2){
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+/* Botões */
+button{
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#3b82f6;
+    color:white;
+    font-size:14px;
+    cursor:pointer;
+    transition:0.25s;
+}
+
+/* Hover */
+button:hover{
+    background:#2563eb;
+    transform:translateY(-2px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.3);
+}
+
+/* Resultado */
+ul{
+    list-style:none;
+    width:420px;
+}
+
+li{
+    background:#1e293b;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    font-size:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.4);
+}
